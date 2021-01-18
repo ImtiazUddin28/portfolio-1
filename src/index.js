@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, '../','public')));
 routes(app);
 app.get('/', (req, res) => {
 	
-	res.send('Hello World!')
+	res.send('Server is found,select the path')
 });
 
 app.use((req, res, next) => {

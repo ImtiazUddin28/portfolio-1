@@ -1,5 +1,5 @@
-const bucketRouter = require('./buckets.routes');
+const portfolioRouter = require('./portfolio.routes');
 
 module.exports = function (app) {
-	app.use('/buckets', bucketRouter);
+	app.use('/portfolio', portfolioRouter);
 };
